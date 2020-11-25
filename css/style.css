@@ -152,15 +152,11 @@ h2 {
   margin: 20px 30px 30px;
 }
 
-@media (max-width: 375px;) {
-  body {
+@media (max-width: 1028px) {
+  #title {
     text-align: center;
   }
 }
-
-
-
-
 
 /* #34626c; */
 /* #dbf6e9; */
