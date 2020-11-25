@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 a {
@@ -19,6 +20,10 @@ a {
 .nav-item {
   font-family: "Montserrat", sans-serif;
   padding: 0 18px;
+}
+
+.navbar-collapse {
+  text-align: right;
 }
 
 /* Title section */
@@ -68,6 +73,10 @@ h1 {
   padding: 7% 15%;
 }
 
+.vector-img {
+  width: 7%
+}
+
 /* Pricing section */
 #pricing {
   background-color: #34626c;
@@ -106,6 +115,7 @@ h2 {
 }
 
 .carousel-item {
+  text-align: center;
   padding: 7% 15%;
 }
 
@@ -135,8 +145,15 @@ h2 {
 
 .footer-logo {
   color: #000;
-  margin: 20px 30px 50px;
+  margin: 20px 30px 30px;
 }
+
+@media (max-width: 375px;) {
+  h1 {
+    text-align: center;
+  }
+}
+
 
 /* #34626c; */
 /* #dbf6e9; */
