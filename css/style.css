@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat", sans-serif;
-  text-align: left;
 }
 
 a {
@@ -74,7 +73,7 @@ h1 {
 }
 
 .vector-img {
-  width: 7%
+  width: 100%;
 }
 
 /* Pricing section */
